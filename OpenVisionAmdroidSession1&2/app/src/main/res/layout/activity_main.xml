@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.appizona.openvision.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/my_button_background"
+        android:onClick="call"
+        android:text="@string/my_button_text"
+        android:textAllCaps="false"
+        android:textColor="@color/my_button_text_color"
+        android:textSize="@dimen/my_button_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/my_button2_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/my_button2_background"
+        android:onClick="call"
+        android:text="@string/my_button2_text"
+        android:textAllCaps="false"
+        android:textColor="@color/my_button_text_color"
+        android:textSize="@dimen/my_button_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#ff3344"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/my_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#444444"
+            android:hint="Enter a text !"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <TextView
+            android:id="@+id/my_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#44ff44"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/my_button_ET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CLick Here !" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/face" />
+
+
+
+</LinearLayout>

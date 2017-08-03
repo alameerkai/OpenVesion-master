@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OpenVision</string>
+
+    <string name="open_vision_name">Closed Vision</string>
+
+    <string name="my_button_text">Click Me From XML!</string>
+    <string name="my_button2_text">Click Me From JAVA!</string>
+
+</resources>

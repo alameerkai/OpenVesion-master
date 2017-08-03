@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الرؤيه المفتوحه</string>
+
+    <string name="open_vision_name">الرؤيه الغلقه</string>
+
+    <string name="my_button_text">اضغط من ال اكس ام ال</string>
+    <string name="my_button2_text">اضغط من الجافا</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OpenVision</string>
+
+    <string name="open_vision_name">Closed Vision</string>
+
+    <string name="menu_call_string">Contact Us</string>
+    <string name="menu_calendar_string">Calendar</string>
+
+</resources>
